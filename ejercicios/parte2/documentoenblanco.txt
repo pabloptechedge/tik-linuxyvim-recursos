@@ -1,0 +1,12 @@
+Puedes usar este documento para escribir.
+Puedes reconocer si estás en modo -- INSERT -- mirando
+abajo a la izquierda. Si quieres salir de modo insert pulsa Esc
+
+
+Escribe sobre estas mismas palabras y 
+observa la diferencia entre usar insert con i
+y append con a
+
+Puedes crear nuevas líneas con O y o, crea una nueva línea encima y debajo de esta.
+
+Puedes hacer y deshacer tus cambios con u y Ctrl-r

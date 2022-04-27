@@ -1,0 +1,24 @@
+Vamos a usar algunos registros
+
+
+Para empezar vamos a revisar el contenido de el registro %,
+que debería contener el nombre del fichero.
+
+Vamos a pergarlo con "%p
+
+
+
+Ahora vamos a copiar algunas palabras a registros.
+Nos acercamos a la palabra y "xy donde x sería la letra
+del registro donde queramos almacenarla
+
+
+a - almohada
+b - barbacoa
+c - caracol
+
+Ahora hacemos :registers. Deberíamos ver las palabras que acabamos de almacenar.
+En los registros numéricos seguramente veamos cosas que hemos usado en ejercicios
+anteriores (van moviendose desde reciente a antiguo)
+
+Ahora los pegaremos aqui con "xp

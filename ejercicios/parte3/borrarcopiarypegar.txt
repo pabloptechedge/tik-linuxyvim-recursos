@@ -1,0 +1,23 @@
+Vamos a probar con distintos comandos de edicion
+
+Corrige las erratas en la siguiente línea con los comandos 'r' y 'x'
+
+  no se escrivir Balladolid, me alludas?
+
+  Has visto que no te hacen entrar en modo insert?
+
+Quita las palabras que no correspondan usando 'dw' o 'viwd'.
+
+  Plátano Mandarina Naranja Yate Piña Manzana Pera Teclado
+
+  Observa que viwd que elimina la palabra entera independientemente de donde hayas puesto
+  el cursor
+
+Borra esta línea con 'dd'
+
+Copia la palabra gatos de esta línea con 'yw' o 'viwy' y pegala donde corresponda abajo.
+
+  Los son felinos
+
+
+Borra la basura al final de esta línea con 'd$'   f09qi30rjq34rj34prj2p394jr2pj4qpij

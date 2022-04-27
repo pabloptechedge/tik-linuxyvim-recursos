@@ -1,0 +1,5 @@
+Ejemplo del macro para ejecutar en cada fichero.
+:wn para saltar al siguiente
+
+
+V!base64 -dV!xmllint --format -:%s/Jorge/Juan/gggVG!base64 -w 0

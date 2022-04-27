@@ -1,0 +1,42 @@
+En este caso tenemos varios archivos dentro de 
+la carpeta ejercicio2
+
+Son XMLs codificados en base64.
+
+Nos han pedido que entremos y los modifiquemos.
+Tendremos que darles formato para que no estén
+en una línea,  cambiar las menciones dentro del
+fiechero decodificado de Jorge por Juan y luego
+volver a dejar los ficheros codificados
+
+
+Hay varios así que usaremos un macro
+
+
+Comandos que vamos a necesitar:
+
+En la terminal:
+
+  vim archivo1 archivo2 archivo3
+  o
+  vim *
+
+Dentro de vim:
+
+ Comandos externos:
+
+   Decodificar ->  :!base64 -d
+   Codificar   ->  :!base64 -w 0
+   Dar formato a XML   ->  :!xmllint --format -
+ 
+  Comandos de Vim:
+    Guardar -> :w
+    Pasar a siguiente buffer -> :n
+    Pasar a buffer previo -> :N
+    Guardar y pasar a siguiente buffer-> :wn
+    Ver buffers activos -> :buffers
+
+    Si algún comando pide que guardemos o descartemos los
+    cambios podemos hacer :n! si no queremos guardar (misma
+    idea que :q!) o :wn si queremos guardarlos
+

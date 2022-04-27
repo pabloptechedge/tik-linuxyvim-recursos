@@ -1,0 +1,38 @@
+Vamos a mezclar lo que hemos aprendido y vamos a hacer nuestro primer macro.
+
+Nos han solicitado que hagamos unas inserciones a una BBDD con la siguiente estructura:
+
+INSERT (NIF, Nombre )
+INSERT (NIF, Empresa)
+
+
+Y estos datos
+
+
+NIF Nombre Empresa
+1234 Jorge Techedge
+4858 Laura IBM
+7777 Richard Casino
+0945 Andrea Fufu
+3945 Luis Avionetas
+0264 Maria Carniceros
+0942 Candela Franjose
+
+
+Vamos a crear un macro que nos permita 
+crear los inserts correspondientes de forma
+cómoda.
+
+
+¿Como haría esto? 
+En primer lugar copiaría la estructura que quiero replicar
+a un registro (eg: registro u).
+Despues empezaría a grabar el macro w en el primer usuario.
+Copiaría NIF Nombre y Empresa a los registros a b y c
+Pegaría el contenido del registro u y luego
+podría ir haciendo sustituciones con '<,'>s/palabra1/palabra2/g
+o en este caso, sería posible también hacerlas saltando de 
+palabra en palabra con w
+
+
+

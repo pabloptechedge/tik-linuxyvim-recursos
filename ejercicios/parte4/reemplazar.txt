@@ -1,0 +1,28 @@
+Coloca el cursor sobre la palabra->  naranja
+
+Ahora pulsa * para saltar a la siguiente naranja
+
+Ésta naranja es un portal, puedes volver usando #.
+
+Si miras abajo, al pulsar * sobre la primera naranja creaste este patrón de búsqueda /\<naranja\>
+Puedes saltar entre ellas con n y N también
+
+
+Vamos a crear un nuevo patrón de busqueda. En modo normal, escribe /limon
+Ahora puedes viajar entre limon y limon usando n y N
+
+
+Ahora reemplaza naranja por platano en todo el documento usando este comando:
+
+:%s/naranja/platano/g
+
+% hace que se haga el cambio en todas las líneas, y g que se sustituyan todos los patrones en cada línea.
+Si haces una selección visual antes, puedes hacer el cambio sólo en las líneas que hayas seleccionado
+
+Puedes borrar todas las líneas que no contengan tu fruta preferida con:
+:g!/platano/d
+
+
+
+
+limon

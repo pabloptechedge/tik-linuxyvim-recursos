@@ -1,0 +1,8 @@
+Solución de macro1.txt. Asume que el registro u contiene:
+
+INSERT (NIF, Nombre )
+INSERT (NIF, Empresa)
+
+Puedes probarlo seleccionando la línea y copiandolo al registro u
+
+viw"aywviw"bywviw"cyV"dpmzVj:s/NIF/a/g'zVj:s/Nombre/b/gVj:s/Empresa/c/gj

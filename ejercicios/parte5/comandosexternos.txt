@@ -1,0 +1,33 @@
+Vamos a lanzar algunos comandos externos
+
+Ordena estos nombres con :!sort
+
+Pablo
+Jorge
+Ana
+Zacarías
+Raquel
+Beatriz
+Nuno
+
+Decodifica este base64 con :!base64 -d 
+
+QmllbiBoZWNobywgaGFzIGhhY2tlYWRvIGludGVybmV0Cg==
+
+Filtra entradas repetidas con :!sort | uniq
+
+platano
+pera
+pera
+manzana
+platano
+kiwi
+pera
+manzana
+pera
+platano
+pera
+
+
+Escribe un timestamp debajo con :!date (sigues teniendo que seleccionar con V para que salga en el documento)
+
